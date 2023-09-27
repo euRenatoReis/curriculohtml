@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width: 60vw;
+            justify-self: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+       
+            height: 10%;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 90%;
+       
+        }
+
+        h3 {
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+        }
+
+        ul li {
+            display: flex;
+            padding-left: 20px;
+        }
+
+        .formacao-unidade {
+            font-weight: bold;
+        }
+
+        .formacao-cedula{
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+        }
+
+        .perfil-formacao {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .dados-pessoais-copetencias {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .perfil {
+            display: flex;
+            flex-direction: column;
+   
+            padding: 20px;
+            gap: 15px;
+        }
+
+        .formacao {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .titulo-formacao-area,
+        .titulo-perfil-area {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .titulo-formacao-area i,
+        .titulo-perfil-area i {
+            display: flex;
+            align-items: center;
+            height: 25px;
+        }
+
+        .conteudo-formacoes {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .dados-pessoais {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 15px;
+        }
+
+        .copetencias {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 15px;
+       
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/ccf9085f4b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Renato Vieira dos Reis</h1>
+        <p>Front end development.</p>
+    </header>
+    <section>
+        <div class="perfil-formacao">
+            <div class="perfil">
+                <div class="titulo-perfil-area">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>Perfil</h3>
+                </div>
+                <p>tudo começou em 2019, quando aprendi logica de programação
+                    e a linguagem <b>C#</b>, um tempo depois de terminar o curso
+                    de jogos comecei a me interessar pela área de
+                    desenvolvimento <b>front end</b>, e venho estudando desde então,
+                    atualmente quero ser <b> front end </b>, mas futuramente quero ser
+                    <b>fullstack.</b>
+                </p>
+            </div>
+            <div class="formacao">
+
+                <div class="titulo-formacao-area">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Formação</h3>
+                </div>
+                <div class="conteudo-formacoes">
+                    <div class="formacao-cedula">
+                        <p class="formacao-unidade">
+                            3 ano do ensino medio, marcilio dias, vila velha
+                        <p>
+                        <p>2016 - 2018</p>
+                        <p>conclusão do ensino medio</p>
+                    </div>
+                    <div class="formacao-cedula">
+                        <p class="formacao-unidade">
+                            tecnico, programador de jogos digitais, vila velha
+                        <p>
+                        <p>2019 - 2021</p>
+                        <div>
+                            <p>neste curso aprendi varias coisas incluindo:</p>
+                            <ul>
+                                <li>linguagem C#</li>
+                                <li>design</li>
+                                <li>logica de programação</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="formacao-cedula">
+                        <p class="formacao-unidade">
+                            basico, dev em dobro, remoto
+                        <p>
+                        <p>01/2023 - 10/2023</p>
+                        <div>
+                            <p>neste curso aprendi varias coisas incluindo:</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JAVASCRIPT</li>
+                                <li>REACT.JS</li>
+                                <li>GIT</li>
+                                <li>GITHUB</li>
+                                <li>NODE.JS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <div class="dados-pessoais-copetencias">
+            <div class="dados-pessoais">
+                <h3>Dados Pessoais</h3>
+                <ul>
+                    <li>vila velha - ES</li>
+                    <li>Brasil </li>
+                    <li>(27)98824-2885</li>
+                    <li>reisvierarenato@gmail.com</li>
+                    <li>https://github.com/euRenatoReis</li>
+                </ul>
+            </div>
+            <div class="copetencias">
+                <h3>Copetências</h3>
+                <ul>
+                    <li> HTML & CSS </li>
+                    <li> Javascript </li>
+                    <li> React.js</li>
+                    <li> Vue.js</li>
+                    <li> Git</li>
+                    <li> Node.js</li>
+                </ul>
+            </div>
+
+    </section>
+
+
+</body>
+
+</html>
